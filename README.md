@@ -1,14 +1,14 @@
-# Lab 1 - *Name of App Here*
+# Lab 1 - Tumblr
 
-**Name of your app** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
+Tumblr is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can scroll through a feed of images returned from the Tumblr API (5pts)
+- [x] User can scroll through a feed of images returned from the Tumblr API (5pts)
 
 The following **stretch** user stories are implemented:
 
@@ -20,17 +20,20 @@ The following **stretch** user stories are implemented:
 The following **additional** user stories are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+- Possibly add a loading before feed displays
+- settings screen to filter images, day/nightmode
+- Ability to access other APIs
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. What issues did others encounter?
+2. What other options can be added to viewDidLoad()
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/fMxXxnM' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -38,9 +41,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+While building the app, one of the bigger challenges I faced was where exactly to implement specific parts of the code. For example, setting up the UITableVIew, cells, and UIImageView took a while to understand where outlets should be and how to access them. Furthermore, some errors in the build had come from wrong versions of AlamoFireImage which restricted many functions throughout the program itself. 
+
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2018 Emanuel Donie Ypon
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
